@@ -13,17 +13,17 @@ h1 {
   color: white;
   font-size: 35px;
 }
-/* determines font, color, and size of paragraph text */
+/* for the font, color, and size of paragraph text */
 p {
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
   font-size: 15px;
 }
-/* no margin or padding, specifying the background is gray */
+/* background is black */
 body {
-  margin: 0;
-  padding: 0;
-  background-color: gray;
+  margin: 15;
+  padding: 15;
+  background-color: black;
 }
 /* specifying how the content will be laid out */
 .horizontal-flex-container {   
