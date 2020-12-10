@@ -22,7 +22,7 @@ function setup() {
   textFont(myFont);
   textSize(16);
   text('p5*js', 10, 50);
-  let cnv = createCanvas(890, 600);
+  let cnv = createCanvas(displayWidth, displayHeight);
   cnv.mousePressed(canvasPressed);
   // createCanvas(900, 600);
   background(0);
