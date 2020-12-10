@@ -28,11 +28,13 @@ function setup() {
   background(0);
   //displays text regarding concept
   text('Solastalgia:                                                                                 the distress caused by environmental change', 15, 20, width - 20);
-  text('tap to play, release to pause audio', 15, 40, width - 20);
+  text('What do we know', 15, 40, width - 20);
+    text('What dont we know', 15, 60, width - 20);
   text('The spreading of a thought or idea. Our mindspace through knowing about a virus.', 15, 500, width - 20);
   text('Is knowing bliss?', 15, 550, width - 20);
+    image(img, 0, 0);
  //image location
-  image(img, 0,0);
+  image(img, 0, height / 2, img.width / 2, img.height / 2);
 }
 
 function draw() {
