@@ -21,9 +21,17 @@ p {
 }
 /* background is black */
 body {
-  margin: 15;
-  padding: 15;
+  
+  margin: 0;
+  display: flex;
   background-color: black;
+  body {
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
 }
 /* specifying how the content will be laid out */
 .horizontal-flex-container {   
